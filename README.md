@@ -1,4 +1,5 @@
 # Passphrase-Maker
+Remember this is just a script not a module. You dont need to upload this to the universal powershell modules 
 Make sure you have your execution policy to remote-signed because this is not a signed script
 run newpass.ps1
 newpass.ps1 promts you for an integer 1-10 and a filepath and name to a wordlist
