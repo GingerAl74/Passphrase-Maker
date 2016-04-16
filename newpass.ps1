@@ -7,9 +7,9 @@ $counter ++
 $pass = Get-Content $list
 $num = Get-Random -Maximum 101
 $word1 = $pass[$num]
-out-file -literalpath fullpass.txt -encoding ascii -append -force -InputObject "$word1" -nonewline  
+out-file -filepath fullpass.txt -encoding ascii -append -force -InputObject "$word1"  
 }
-while ($counter -le $len)
+while ($counter -lt $len)
 $full = Get-Content fullpass.txt
 
 write-host
