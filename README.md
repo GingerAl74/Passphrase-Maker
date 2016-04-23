@@ -8,3 +8,5 @@ It will generate a file and delete it, but the new passphrase will be created an
 now works on powershell 3.0 and 4.0 (not just 5.0)
 Do not use in ISE it will work, but it will continue to write to variable creating paragrahps of text for a variable.
 newpassmod.psm1 is the module version of this script for if you want to import it as a module instead of runnig the script everytime
+# update 4/22
+Added a capitalization flag, and uppercase flag, and a lowercase flag
