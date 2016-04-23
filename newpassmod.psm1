@@ -12,7 +12,8 @@
 
 .EXAMPLE
    Create-Passphrase -Length 4 -List C:\Users\XXXX\Desktop\Words.txt -Caps
-   This command will run the function and make a passphrase of 4 words from the provided wordlist and will uppercase the first character as long as it is not a number or special character.
+   This command will run the function and make a passphrase of 4 words from the provided wordlist 
+   and will uppercase the first character as long as it is not a number or special character.
 #>
 function Create-Passphrase
 {
